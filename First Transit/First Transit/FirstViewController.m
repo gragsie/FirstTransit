@@ -9,7 +9,7 @@
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
-
+@property   (nonatomic, strong)     IBOutlet    UIScrollView    *scroller;
 @end
 
 @implementation FirstViewController
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabBarItem.badgeValue = @"2";
+    self.scroller.contentSize = CGSizeMake(self.scroller.frame.size.width * 2, self.scroller.frame.size.height);
 }
 
 

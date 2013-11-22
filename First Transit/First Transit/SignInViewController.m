@@ -29,7 +29,7 @@
 
 - (void)callWS {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-        [NSThread sleepForTimeInterval:3];
+        [NSThread sleepForTimeInterval:2];
         dispatch_async(dispatch_get_main_queue(), ^{
             [ActivityViewController hideActivity];
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
