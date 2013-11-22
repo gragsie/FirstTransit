@@ -22,6 +22,14 @@
 		BFDCDB73183FBA1F00C80E34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDCDB52183FBA1F00C80E34 /* UIKit.framework */; };
 		BFDCDB7B183FBA1F00C80E34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDB79183FBA1F00C80E34 /* InfoPlist.strings */; };
 		BFDCDB7D183FBA1F00C80E34 /* First_TransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDCDB7C183FBA1F00C80E34 /* First_TransitTests.m */; };
+		BFDD683F183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD683E183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m */; };
+		BFDD6840183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD683E183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m */; };
+		BFDD6843183FC71A006AE4C5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD6842183FC71A006AE4C5 /* SignInViewController.m */; };
+		BFDD6844183FC71A006AE4C5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD6842183FC71A006AE4C5 /* SignInViewController.m */; };
+		BFDD6847183FC961006AE4C5 /* TabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD6846183FC961006AE4C5 /* TabsViewController.m */; };
+		BFDD6848183FC961006AE4C5 /* TabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD6846183FC961006AE4C5 /* TabsViewController.m */; };
+		BFDD684B183FCFC4006AE4C5 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD684A183FCFC4006AE4C5 /* ActivityViewController.m */; };
+		BFDD684C183FCFC4006AE4C5 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD684A183FCFC4006AE4C5 /* ActivityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,14 @@
 		BFDCDB78183FBA1F00C80E34 /* First TransitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "First TransitTests-Info.plist"; sourceTree = "<group>"; };
 		BFDCDB7A183FBA1F00C80E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFDCDB7C183FBA1F00C80E34 /* First_TransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First_TransitTests.m; sourceTree = "<group>"; };
+		BFDD683D183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LookAndFeelCustomizations.h"; sourceTree = "<group>"; };
+		BFDD683E183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LookAndFeelCustomizations.m"; sourceTree = "<group>"; };
+		BFDD6841183FC71A006AE4C5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		BFDD6842183FC71A006AE4C5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		BFDD6845183FC961006AE4C5 /* TabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabsViewController.h; sourceTree = "<group>"; };
+		BFDD6846183FC961006AE4C5 /* TabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabsViewController.m; sourceTree = "<group>"; };
+		BFDD6849183FCFC4006AE4C5 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		BFDD684A183FCFC4006AE4C5 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +131,21 @@
 		BFDCDB54183FBA1F00C80E34 /* First Transit */ = {
 			isa = PBXGroup;
 			children = (
+				BFDD6849183FCFC4006AE4C5 /* ActivityViewController.h */,
+				BFDD684A183FCFC4006AE4C5 /* ActivityViewController.m */,
 				BFDCDB5D183FBA1F00C80E34 /* AppDelegate.h */,
 				BFDCDB5E183FBA1F00C80E34 /* AppDelegate.m */,
 				BFDCDB60183FBA1F00C80E34 /* Main.storyboard */,
 				BFDCDB63183FBA1F00C80E34 /* FirstViewController.h */,
 				BFDCDB64183FBA1F00C80E34 /* FirstViewController.m */,
+				BFDD6841183FC71A006AE4C5 /* SignInViewController.h */,
+				BFDD6842183FC71A006AE4C5 /* SignInViewController.m */,
 				BFDCDB66183FBA1F00C80E34 /* SecondViewController.h */,
 				BFDCDB67183FBA1F00C80E34 /* SecondViewController.m */,
+				BFDD6845183FC961006AE4C5 /* TabsViewController.h */,
+				BFDD6846183FC961006AE4C5 /* TabsViewController.m */,
+				BFDD683D183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.h */,
+				BFDD683E183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m */,
 				BFDCDB69183FBA1F00C80E34 /* Images.xcassets */,
 				BFDCDB55183FBA1F00C80E34 /* Supporting Files */,
 			);
@@ -260,7 +284,11 @@
 				BFDCDB68183FBA1F00C80E34 /* SecondViewController.m in Sources */,
 				BFDCDB5F183FBA1F00C80E34 /* AppDelegate.m in Sources */,
 				BFDCDB65183FBA1F00C80E34 /* FirstViewController.m in Sources */,
+				BFDD6847183FC961006AE4C5 /* TabsViewController.m in Sources */,
+				BFDD683F183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */,
+				BFDD6843183FC71A006AE4C5 /* SignInViewController.m in Sources */,
 				BFDCDB5B183FBA1F00C80E34 /* main.m in Sources */,
+				BFDD684B183FCFC4006AE4C5 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDD6848183FC961006AE4C5 /* TabsViewController.m in Sources */,
 				BFDCDB7D183FBA1F00C80E34 /* First_TransitTests.m in Sources */,
+				BFDD6844183FC71A006AE4C5 /* SignInViewController.m in Sources */,
+				BFDD6840183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */,
+				BFDD684C183FCFC4006AE4C5 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +507,7 @@
 				BFDCDB82183FBA1F00C80E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDCDB83183FBA1F00C80E34 /* Build configuration list for PBXNativeTarget "First TransitTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +516,7 @@
 				BFDCDB85183FBA1F00C80E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

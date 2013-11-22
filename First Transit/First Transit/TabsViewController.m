@@ -1,22 +1,22 @@
 //
-//  FirstViewController.m
+//  TabsViewController.m
 //  First Transit
 //
 //  Created by Graham Savage on 11/22/13.
 //  Copyright (c) 2013 Centric Consulting. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "TabsViewController.h"
 
-@interface FirstViewController ()
+@interface TabsViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TabsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tabBarItem.badgeValue = @"2";
+    self.navigationItem.hidesBackButton = YES;
 }
 
 
