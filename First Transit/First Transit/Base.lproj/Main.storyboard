@@ -170,6 +170,9 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="pageIndicatorTintColor" white="1" alpha="0.51000000000000001" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.088329400000000002" green="0.15829099999999999" blue="0.40217900000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="spotsTapped:" destination="CZ4-MO-1fc" eventType="valueChanged" id="BkA-hx-vAX"/>
+                                </connections>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.62629900000000005" green="0.83814699999999998" blue="0.858518" alpha="1" colorSpace="calibratedRGB"/>
@@ -179,6 +182,7 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="scroller" destination="5SR-ha-UX7" id="nxC-JR-0fd"/>
+                        <outlet property="spots" destination="qyv-5H-dM5" id="79S-il-3sd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
