@@ -8,7 +8,7 @@
 
 #import "TabsViewController.h"
 
-@interface TabsViewController ()
+@interface TabsViewController () <UITabBarControllerDelegate>
 
 @end
 
@@ -17,7 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.hidesBackButton = YES;
+    self.delegate = self;
+    self.navigationController.navigationBar.hidden = NO;
 }
 
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+    self.navigationItem.title = viewController.tabBarItem.title;
+}
 
 @end

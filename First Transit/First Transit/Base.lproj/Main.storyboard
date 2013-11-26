@@ -4,6 +4,30 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="Mfc-X9-SVT">
+            <objects>
+                <viewController id="2bH-Zu-PbK" customClass="SplashViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6cj-b2-HKr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="CircleLogo" id="rKc-FX-Ogn">
+                                <rect key="frame" x="56" y="142" width="208" height="183"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62629900000000005" green="0.83814699999999998" blue="0.858518" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N24-gF-7Vf"/>
+                    <connections>
+                        <outlet property="logo" destination="rKc-FX-Ogn" id="wXn-Rv-YXA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0j-Y5-ypz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-550" y="-924"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nb5-bh-UY7">
             <objects>
@@ -19,7 +43,7 @@
                         </textAttributes>
                     </navigationBar>
                     <connections>
-                        <segue destination="ZqB-kp-xZa" kind="relationship" relationship="rootViewController" id="Vbl-ao-IPH"/>
+                        <segue destination="2bH-Zu-PbK" kind="relationship" relationship="rootViewController" id="Dbm-x9-mHw"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlH-1O-PTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -29,9 +53,9 @@
         <!--Sign In View Controller - Sign In-->
         <scene sceneID="3bC-DD-xWk">
             <objects>
-                <viewController id="ZqB-kp-xZa" customClass="SignInViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="ZqB-kp-xZa" customClass="SignInViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KJO-rr-GhQ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Logo" id="4ot-Pj-tKX">
@@ -39,7 +63,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Z8I-5J-joq">
-                                <rect key="frame" x="20" y="454" width="280" height="30"/>
+                                <rect key="frame" x="20" y="518" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                 <state key="normal" title="I forgot my password">
@@ -47,7 +71,7 @@
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" id="cqH-WC-zAs">
-                                <rect key="frame" x="21" y="144" width="278" height="201"/>
+                                <rect key="frame" x="21" y="174.5" width="278" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" id="8qb-Wa-pb7">
@@ -95,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="-103" y="-238"/>
         </scene>
-        <!--First View Controller - First-->
+        <!--First View Controller - Today-->
         <scene sceneID="W3I-pn-N6e">
             <objects>
-                <viewController title="First" id="CZ4-MO-1fc" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController title="Today" id="CZ4-MO-1fc" customClass="FirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2VE-Yg-loa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,7 +188,7 @@
         <!--View Controller - Schedule-->
         <scene sceneID="4NE-eB-8wF">
             <objects>
-                <viewController id="X5B-XK-5Lc" sceneMemberID="viewController">
+                <viewController title="Schedule" id="X5B-XK-5Lc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rjq-kL-b54">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -176,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="989" y="-238"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--Second View Controller - Future-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
-                <viewController title="Second" id="QUy-BD-bpt" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController title="Future" id="QUy-BD-bpt" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,7 +218,7 @@
         <!--View Controller - Message-->
         <scene sceneID="o9b-ot-y8X">
             <objects>
-                <viewController id="ESY-A3-ItR" sceneMemberID="viewController">
+                <viewController title="Message" id="ESY-A3-ItR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Ch-ep-XOh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -221,11 +245,11 @@
             </objects>
             <point key="canvasLocation" x="989" y="1154"/>
         </scene>
-        <!--Tabs View Controller - Home-->
+        <!--Tabs View Controller - Today-->
         <scene sceneID="Vex-rW-GRa">
             <objects>
-                <tabBarController storyboardIdentifier="tabbarcontroller" title="Home" id="8YX-ce-x5E" customClass="TabsViewController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Home" id="VKF-rQ-C19"/>
+                <tabBarController storyboardIdentifier="tabbarcontroller" title="Today" id="8YX-ce-x5E" customClass="TabsViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Today" id="VKF-rQ-C19"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" itemPositioning="centered" id="JQR-rB-NYL">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -300,6 +324,7 @@
     </scenes>
     <resources>
         <image name="Button" width="238" height="37"/>
+        <image name="CircleLogo" width="208" height="183"/>
         <image name="Logo" width="236" height="48"/>
         <image name="SmallLogo" width="60" height="60"/>
         <image name="Whitebox" width="75" height="75"/>

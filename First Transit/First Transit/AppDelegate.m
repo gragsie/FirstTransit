@@ -11,6 +11,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window.backgroundColor = [UIColor colorWithRed:160.0/255.0 green:214.0/255.0 blue:219.0/255.0 alpha:1];
     return YES;
 }
 							

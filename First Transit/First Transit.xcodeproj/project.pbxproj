@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFC35B0218452C64001681EB /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC35B0118452C64001681EB /* SplashViewController.m */; };
+		BFC35B0318452C64001681EB /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC35B0118452C64001681EB /* SplashViewController.m */; };
 		BFDCDB4F183FBA1F00C80E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDCDB4E183FBA1F00C80E34 /* Foundation.framework */; };
 		BFDCDB51183FBA1F00C80E34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDCDB50183FBA1F00C80E34 /* CoreGraphics.framework */; };
 		BFDCDB53183FBA1F00C80E34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDCDB52183FBA1F00C80E34 /* UIKit.framework */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFC35B0018452C64001681EB /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		BFC35B0118452C64001681EB /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		BFDCDB4B183FBA1F00C80E34 /* First Transit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Transit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDCDB4E183FBA1F00C80E34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFDCDB50183FBA1F00C80E34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -142,6 +146,8 @@
 				BFDD6842183FC71A006AE4C5 /* SignInViewController.m */,
 				BFDCDB66183FBA1F00C80E34 /* SecondViewController.h */,
 				BFDCDB67183FBA1F00C80E34 /* SecondViewController.m */,
+				BFC35B0018452C64001681EB /* SplashViewController.h */,
+				BFC35B0118452C64001681EB /* SplashViewController.m */,
 				BFDD6845183FC961006AE4C5 /* TabsViewController.h */,
 				BFDD6846183FC961006AE4C5 /* TabsViewController.m */,
 				BFDD683D183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.h */,
@@ -286,6 +292,7 @@
 				BFDCDB65183FBA1F00C80E34 /* FirstViewController.m in Sources */,
 				BFDD6847183FC961006AE4C5 /* TabsViewController.m in Sources */,
 				BFDD683F183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */,
+				BFC35B0218452C64001681EB /* SplashViewController.m in Sources */,
 				BFDD6843183FC71A006AE4C5 /* SignInViewController.m in Sources */,
 				BFDCDB5B183FBA1F00C80E34 /* main.m in Sources */,
 				BFDD684B183FCFC4006AE4C5 /* ActivityViewController.m in Sources */,
@@ -301,6 +308,7 @@
 				BFDD6844183FC71A006AE4C5 /* SignInViewController.m in Sources */,
 				BFDD6840183FC6B7006AE4C5 /* UIViewController+LookAndFeelCustomizations.m in Sources */,
 				BFDD684C183FCFC4006AE4C5 /* ActivityViewController.m in Sources */,
+				BFC35B0318452C64001681EB /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
