@@ -26,7 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z0j-Y5-ypz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-550" y="-924"/>
+            <point key="canvasLocation" x="-44" y="-944"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nb5-bh-UY7">
@@ -48,7 +48,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlH-1O-PTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-550" y="-238"/>
+            <point key="canvasLocation" x="-534" y="-944"/>
         </scene>
         <!--Sign In View Controller - Sign In-->
         <scene sceneID="3bC-DD-xWk">
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U26-dd-Wza" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-103" y="-238"/>
+            <point key="canvasLocation" x="406" y="-944"/>
         </scene>
         <!--First View Controller - Today-->
         <scene sceneID="W3I-pn-N6e">
@@ -149,7 +149,7 @@
                                         <rect key="frame" x="160" y="268" width="140" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
-                                        <state key="normal" title="Schedule This">
+                                        <state key="normal" title="Reschedule">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -323,7 +323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivG-ti-w4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-527" y="573"/>
+            <point key="canvasLocation" x="-511" y="-133"/>
         </scene>
     </scenes>
     <resources>
